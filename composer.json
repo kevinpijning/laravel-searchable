@@ -1,0 +1,21 @@
+{
+    "name": "kevinpijning/laravel-searchable",
+    "description": "Easy table searching for Laravel",
+    "license": "MIT",
+    "keywords": ["laravel", "search", "searchable", "laravel-searchable"],
+    "authors": [
+        {
+            "name": "Kevin Pijning",
+            "email": "kevin@pijning.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "KevinPijning\\LaravelSearchable\\": "src/"
+        }
+    }
+}
