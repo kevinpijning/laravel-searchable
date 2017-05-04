@@ -1,4 +1,4 @@
-#Searchable Laravel (5.*)
+# Searchable Laravel (5.*)
 This package let you easily search through models by a Searchable trait. 
 
 # Setup
@@ -29,8 +29,6 @@ Add the package to your application service providers in config/app.php
      KevinPijning\LaravelSearchable\LaravelSearchableServiceProvider::class,
 ],
 ```
-
-Publish views
 
 Publish the view:
 ```
@@ -65,7 +63,7 @@ There is one blade extension for you to use @searchableform
 
 `@searchableform`
 
-This will include a search bar to your page.
+This will include a search form to your page.
 
 # Full example
 ## Routes
