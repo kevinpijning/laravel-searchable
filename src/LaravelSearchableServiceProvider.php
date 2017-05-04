@@ -16,15 +16,15 @@ class LaravelSearchableServiceProvider extends ServiceProvider {
     {
         $root = __DIR__.'/../';
         // Load views
-        $this->loadViewsFrom($root . 'resources/views', 'KevinPijning');
+        $this->loadViewsFrom($root . 'resources/views', 'kevinpijning');
         // Publish views
         $this->publishes([
-            $root . 'resources/views' => base_path('resources/views/vendor/KevinPijning'),
+            $root . 'resources/views' => base_path('resources/views/vendor/kevinpijning'),
         ]);
 
 
         Blade::directive('searchableform', function(){
-            return "<?php echo view('searchable.form')->render() ?>";
+            return "<?php echo view('kevinpijning::form')->render() ?>";
         });
 
     }
